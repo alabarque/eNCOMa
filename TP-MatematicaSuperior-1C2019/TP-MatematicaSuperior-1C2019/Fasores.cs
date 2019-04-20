@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TP_MatematicaSuperior_1C2019
 {
-    public partial class Form2 : Form
+    public partial class Fasores : Form
     {
-        public Form2()
+        public Fasores()
         {
             InitializeComponent();
         }
