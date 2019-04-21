@@ -89,7 +89,11 @@
             this.button7.TabIndex = 15;
             this.button7.Text = "Polar Z1";
             this.button7.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.button7.Click += new System.EventHandler(this.Button7_Click);
+=======
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+>>>>>>> ff1ec29ce788ea9cf8c638fbfb8fb54dc25855fa
             // 
             // button8
             // 
@@ -99,7 +103,11 @@
             this.button8.TabIndex = 16;
             this.button8.Text = "Binomica Z2";
             this.button8.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.button8.Click += new System.EventHandler(this.Button8_Click);
+=======
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+>>>>>>> ff1ec29ce788ea9cf8c638fbfb8fb54dc25855fa
             // 
             // label8
             // 
