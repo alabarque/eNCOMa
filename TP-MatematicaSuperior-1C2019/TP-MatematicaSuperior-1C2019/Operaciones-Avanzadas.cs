@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace TP_MatematicaSuperior_1C2019
 {
-    public partial class Fasores : Form
+    public partial class Polar : Form
     {
-        public Fasores()
+        public Polar()
         {
             InitializeComponent();
+        }
+
+        private void Button6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

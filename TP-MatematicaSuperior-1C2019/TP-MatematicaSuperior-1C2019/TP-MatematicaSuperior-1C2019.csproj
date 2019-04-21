@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>TP_MatematicaSuperior_1C2019</RootNamespace>
     <AssemblyName>TP-MatematicaSuperior-1C2019</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -27,6 +27,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -50,6 +51,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -67,11 +69,13 @@
     <Compile Include="Binomica.Designer.cs">
       <DependentUpon>Binomica.cs</DependentUpon>
     </Compile>
-    <Compile Include="Fasores.cs">
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Operaciones-Basicas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Fasores.Designer.cs">
-      <DependentUpon>Fasores.cs</DependentUpon>
+    <Compile Include="Operaciones-Basicas.Designer.cs">
+      <DependentUpon>Operaciones-Basicas.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -79,11 +83,11 @@
     <Compile Include="Form1.designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Polar.cs">
+    <Compile Include="Operaciones-Avanzadas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Polar.Designer.cs">
-      <DependentUpon>Polar.cs</DependentUpon>
+    <Compile Include="Operaciones-Avanzadas.Designer.cs">
+      <DependentUpon>Operaciones-Avanzadas.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,6 +97,12 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Operaciones-Avanzadas.resx">
+      <DependentUpon>Operaciones-Avanzadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operaciones-Basicas.resx">
+      <DependentUpon>Operaciones-Basicas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -101,6 +111,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
