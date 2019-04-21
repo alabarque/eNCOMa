@@ -89,11 +89,7 @@
             this.button7.TabIndex = 15;
             this.button7.Text = "Polar Z1";
             this.button7.UseVisualStyleBackColor = true;
-<<<<<<< HEAD
-            this.button7.Click += new System.EventHandler(this.Button7_Click);
-=======
             this.button7.Click += new System.EventHandler(this.button7_Click);
->>>>>>> ff1ec29ce788ea9cf8c638fbfb8fb54dc25855fa
             // 
             // button8
             // 
@@ -103,11 +99,7 @@
             this.button8.TabIndex = 16;
             this.button8.Text = "Binomica Z2";
             this.button8.UseVisualStyleBackColor = true;
-<<<<<<< HEAD
-            this.button8.Click += new System.EventHandler(this.Button8_Click);
-=======
             this.button8.Click += new System.EventHandler(this.button8_Click);
->>>>>>> ff1ec29ce788ea9cf8c638fbfb8fb54dc25855fa
             // 
             // label8
             // 
@@ -131,7 +123,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(727, 558);
+            this.ClientSize = new System.Drawing.Size(727, 228);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox2);
