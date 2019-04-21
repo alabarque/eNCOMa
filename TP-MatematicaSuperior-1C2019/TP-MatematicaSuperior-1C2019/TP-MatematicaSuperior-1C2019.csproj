@@ -69,8 +69,8 @@
     <Compile Include="Binomica.Designer.cs">
       <DependentUpon>Binomica.cs</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Class2.cs" />
+    <Compile Include="Operaciones.cs" />
+    <Compile Include="Parser.cs" />
     <Compile Include="Operaciones-Basicas.cs">
       <SubType>Form</SubType>
     </Compile>

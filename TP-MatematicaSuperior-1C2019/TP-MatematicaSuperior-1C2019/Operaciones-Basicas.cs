@@ -23,8 +23,8 @@ namespace TP_MatematicaSuperior_1C2019
             Parser parser = new Parser();
             Operaciones operador = new Operaciones();
 
-            Complex C1 = parser.parseadorTexto(textBox1.Text);
-            Complex C2 = parser.parseadorTexto(textBox2.Text);
+            Complex C1 = parser.ParseadorTexto(textBox1.Text);
+            Complex C2 = parser.ParseadorTexto(textBox2.Text);
 
             label8.Text = Convert.ToString(operador.Suma(C1, C2));
         }
@@ -34,8 +34,8 @@ namespace TP_MatematicaSuperior_1C2019
             Parser parser = new Parser();
             Operaciones operador = new Operaciones();
 
-            Complex C1 = parser.parseadorTexto(textBox1.Text);
-            Complex C2 = parser.parseadorTexto(textBox2.Text);
+            Complex C1 = parser.ParseadorTexto(textBox1.Text);
+            Complex C2 = parser.ParseadorTexto(textBox2.Text);
 
             label8.Text = Convert.ToString(operador.Resta(C1, C2));
         }
@@ -45,8 +45,8 @@ namespace TP_MatematicaSuperior_1C2019
             Parser parser = new Parser();
             Operaciones operador = new Operaciones();
 
-            Complex C1 = parser.parseadorTexto(textBox1.Text);
-            Complex C2 = parser.parseadorTexto(textBox2.Text);
+            Complex C1 = parser.ParseadorTexto(textBox1.Text);
+            Complex C2 = parser.ParseadorTexto(textBox2.Text);
 
             label8.Text = Convert.ToString(operador.Multiplicar(C1, C2));
         }
@@ -56,8 +56,8 @@ namespace TP_MatematicaSuperior_1C2019
             Parser parser = new Parser();
             Operaciones operador = new Operaciones();
 
-            Complex C1 = parser.parseadorTexto(textBox1.Text);
-            Complex C2 = parser.parseadorTexto(textBox2.Text);
+            Complex C1 = parser.ParseadorTexto(textBox1.Text);
+            Complex C2 = parser.ParseadorTexto(textBox2.Text);
 
             label8.Text = Convert.ToString(operador.Dividir(C1, C2));
         }
