@@ -202,6 +202,7 @@
             this.button7.TabIndex = 15;
             this.button7.Text = "Polar Z1";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -211,6 +212,7 @@
             this.button8.TabIndex = 16;
             this.button8.Text = "Polar Z2";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // textBox1
             // 
