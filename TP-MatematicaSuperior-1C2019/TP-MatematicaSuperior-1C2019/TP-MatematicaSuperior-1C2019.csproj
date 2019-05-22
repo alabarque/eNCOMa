@@ -14,7 +14,7 @@
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <TargetFrameworkProfile />
-    <PublishUrl>C:\MatematicaSuperior\PrimerEntrega\eNCOMa\</PublishUrl>
+    <PublishUrl>C:\MatematicaSuperior\EntregaFinal\eNCOMa\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
