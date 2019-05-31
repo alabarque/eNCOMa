@@ -14,7 +14,7 @@
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <TargetFrameworkProfile />
-    <PublishUrl>C:\MatematicaSuperior\EntregaFinal\eNCOMa\</PublishUrl>
+    <PublishUrl>C:\MatematicaSuperior\EntregaFinal1.1\eNCOMa\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -87,7 +87,7 @@
       <DependentUpon>Binomica.cs</DependentUpon>
     </Compile>
     <Compile Include="Operaciones.cs" />
-    <Compile Include="FuncionTrigonometrica.cs"/>
+    <Compile Include="FuncionTrigonometrica.cs" />
     <Compile Include="Parser.cs" />
     <Compile Include="Operaciones-Basicas.cs">
       <SubType>Form</SubType>
@@ -108,7 +108,7 @@
       <DependentUpon>Operaciones-Avanzadas.cs</DependentUpon>
     </Compile>
     <Compile Include="SumaFasores.cs">
-            <SubType>Form</SubType>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="SumaFasores.Designer.cs">
       <DependentUpon>Operaciones-Basicas.cs</DependentUpon>
