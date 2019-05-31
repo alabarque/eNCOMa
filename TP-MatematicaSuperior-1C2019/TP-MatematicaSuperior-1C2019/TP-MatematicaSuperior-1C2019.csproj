@@ -87,6 +87,7 @@
       <DependentUpon>Binomica.cs</DependentUpon>
     </Compile>
     <Compile Include="Operaciones.cs" />
+    <Compile Include="FuncionTrigonometrica.cs"/>
     <Compile Include="Parser.cs" />
     <Compile Include="Operaciones-Basicas.cs">
       <SubType>Form</SubType>
@@ -106,6 +107,12 @@
     <Compile Include="Operaciones-Avanzadas.Designer.cs">
       <DependentUpon>Operaciones-Avanzadas.cs</DependentUpon>
     </Compile>
+    <Compile Include="SumaFasores.cs">
+            <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SumaFasores.Designer.cs">
+      <DependentUpon>Operaciones-Basicas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Binomica.resx">
@@ -116,6 +123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Operaciones-Avanzadas.resx">
       <DependentUpon>Operaciones-Avanzadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SumaFasores.resx">
+      <DependentUpon>SumaFasores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Operaciones-Basicas.resx">
       <DependentUpon>Operaciones-Basicas.cs</DependentUpon>

@@ -89,11 +89,23 @@ namespace TP_MatematicaSuperior_1C2019
                 {
                     double result1;
                     double result2;
+//                    var fmt = new System.Globalization.NumberFormatInfo();
+//                    fmt.NegativeSign = "-";
                     string primerElemento = elementos[0].Replace(inicioString.ToString(), "");
                     string segundoElemento = elementos[1].Replace(finalString.ToString(), ""); 
-                    if (double.TryParse(primerElemento, out result1) && double.TryParse(segundoElemento, out result2))
+                    if (double.TryParse(primerElemento, out result1) && double.TryParse(segundoElemento, out result2)) //parseo los datos
                     {
-                        formato = true;
+                        if(inicioString == '[')
+                        {
+                            if(result1 >= 0)
+                            {
+                                formato = true;
+                            }
+                        }
+                        else
+                        {
+                            formato = true;
+                        }
                     }
                 }
             }

@@ -34,5 +34,11 @@ namespace TP_MatematicaSuperior_1C2019
             Fasores formulario = new Fasores();
             formulario.Show();
         }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            SumaFasores formulario = new SumaFasores();
+            formulario.Show();
+        }
     }
 }
